@@ -31,7 +31,7 @@ class CamadaEnlace:
         fornecido como string (no formato x.y.z.w). A camada de enlace se
         responsabilizará por encontrar em qual enlace se encontra o next_hop.
         """
-        # Encontra o Enlace capaz de alcançar next_hop e envia por ele
+        # Encontra o Enlace capaz de alcançar next_hop e envia por elee
         self.enlaces[next_hop].enviar(datagrama)
 
     def _callback(self, datagrama):
